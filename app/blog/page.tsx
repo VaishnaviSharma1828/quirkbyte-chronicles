@@ -9,7 +9,7 @@ export default function Blog() {
       </div>
 
       <div className="grid gap-6 md:grid-cols-2">
-        <Link href="/blog/first-post" className="rounded-3xl bg-white p-8 shadow-lg transition hover:shadow-xl">
+        <Link href="/blog/welcome" className="rounded-3xl bg-white p-8 shadow-lg transition hover:shadow-xl">
           <div className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-pink-600">Featured</div>
           <h2 className="text-2xl font-semibold text-slate-900 mb-2">Welcome to QuirkByte Chronicles</h2>
           <p className="text-slate-600">Kick off the blog with a playful introduction to the mission and tone of this site.</p>
