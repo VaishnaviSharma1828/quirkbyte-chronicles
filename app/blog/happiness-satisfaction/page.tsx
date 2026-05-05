@@ -9,6 +9,16 @@ export default function HappinessPost() {
           <p className="text-[#00d4ff] text-lg opacity-80">May 5, 2026</p>
         </header>
 
+        <div className="my-8 rounded-xl overflow-hidden border border-[#7c5cff]/20">
+          <Image
+            src="/images/Gemini_Generated_Image_8wn6mv8wn6mv8wn6.png"
+            alt="Gemini Generated Image"
+            width={800}
+            height={600}
+            className="w-full h-auto"
+          />
+        </div>
+
         <div className="prose prose-invert prose-headings:text-[#e6e6e6] prose-p:text-[#e6e6e6] prose-strong:text-[#e6e6e6] prose-li:text-[#e6e6e6] max-w-none space-y-6">
           <p className="text-lg text-[#e6e6e6] opacity-90">
             There are days when I think life is supposed to look like a checklist.
@@ -65,16 +75,6 @@ export default function HappinessPost() {
           <p className="text-[#e6e6e6] opacity-90">
             And maybe that's all we're really trying to do.
           </p>
-
-          <div className="my-8 rounded-xl overflow-hidden border border-[#7c5cff]/20">
-            <Image
-              src="/images/Gemini_Generated_Image_8wn6mv8wn6mv8wn6.png"
-              alt="Gemini Generated Image"
-              width={800}
-              height={600}
-              className="w-full h-auto"
-            />
-          </div>
         </div>
       </div>
     </article>
