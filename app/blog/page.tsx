@@ -9,6 +9,13 @@ export default function Blog() {
       </div>
 
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <Link href="/blog/happiness-satisfaction" className="group block rounded-2xl bg-[#1a1f2e] p-6 shadow-lg transition-all duration-300 hover:shadow-[0_0_30px_rgba(0,212,255,0.3)] hover:-translate-y-2 border border-[#7c5cff]/20">
+          <div className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-[#00d4ff]">Latest</div>
+          <h2 className="text-2xl font-semibold text-[#e6e6e6] mb-3 group-hover:text-[#00d4ff] transition-colors">Happiness and Satisfaction — What We're Actually Chasing</h2>
+          <p className="text-[#e6e6e6] opacity-80 leading-relaxed">Exploring the quiet pursuit of feeling enough while still becoming.</p>
+          <div className="mt-4 text-sm text-[#7c5cff] font-medium group-hover:text-[#00d4ff] transition-colors">Read more →</div>
+        </Link>
+
         <Link href="/blog/welcome" className="group block rounded-2xl bg-[#1a1f2e] p-6 shadow-lg transition-all duration-300 hover:shadow-[0_0_30px_rgba(0,212,255,0.3)] hover:-translate-y-2 border border-[#7c5cff]/20">
           <div className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-[#00d4ff]">Featured</div>
           <h2 className="text-2xl font-semibold text-[#e6e6e6] mb-3 group-hover:text-[#00d4ff] transition-colors">Welcome to QuirkByte Chronicles</h2>
