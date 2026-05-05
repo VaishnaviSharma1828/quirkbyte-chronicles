@@ -15,10 +15,15 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="grid gap-6 md:grid-cols-2">
+      <div className="grid gap-6 md:grid-cols-3">
         <Link href="/blog" className="rounded-3xl bg-white p-10 shadow-glow hover:-translate-y-1 transition-transform">
           <h2 className="text-2xl font-semibold text-purple-700 mb-3">Read the Blog</h2>
           <p className="text-slate-600">Jump into the latest posts on coding, creativity, and living smarter.</p>
+        </Link>
+
+        <Link href="/youtube" className="rounded-3xl bg-white p-10 shadow-glow hover:-translate-y-1 transition-transform">
+          <h2 className="text-2xl font-semibold text-purple-700 mb-3">Watch Videos</h2>
+          <p className="text-slate-600">Explore tech tutorials, life hacks, and quirky content on YouTube.</p>
         </Link>
 
         <Link href="/about" className="rounded-3xl bg-white p-10 shadow-glow hover:-translate-y-1 transition-transform">
