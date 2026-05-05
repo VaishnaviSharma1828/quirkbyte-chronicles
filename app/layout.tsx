@@ -1,14 +1,15 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Inter, Sora } from 'next/font/google'
 import './globals.css'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
+const sora = Sora({ subsets: ['latin'], variable: '--font-sora' })
 
 export const metadata: Metadata = {
   title: 'QuirkByte Chronicles',
-  description: 'A quirky blog about technology and life learnings',
+  description: 'A digital journal of tech, life, and everything I can\'t stop thinking about',
 }
 
 export default function RootLayout({
@@ -18,9 +19,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className} ${sora.variable} bg-[#0b0f19] text-[#e6e6e6]`}>
         <Header />
-        <main className="min-h-screen bg-gradient-to-br from-sky-50 via-white to-fuchsia-50">
+        <main className="min-h-screen">
           {children}
         </main>
         <Footer />
