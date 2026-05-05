@@ -20,12 +20,18 @@ export default function YouTube() {
         <div className="rounded-2xl bg-[#1a1f2e] p-8 border border-[#7c5cff]/20">
           <h2 className="text-2xl font-semibold text-[#00d4ff] mb-4">About the Channel</h2>
           <p className="text-[#e6e6e6] opacity-90 leading-relaxed">
-            Welcome to our channel, where we share everything that sparks our curiosity, from philosophy and personal growth to life lessons and meaningful insights. Whether we are helping friends tackle their problems or diving deep into how to live a more fulfilling life, this space is for anyone who vibes with exploring deeper thoughts and finding balance. If you're into discovering new perspectives and growing together, hit subscribe and let's embark on this journey!
+            Welcome to Quirkbyte Chronicles, a space where I share everything that sparks curiosity—from philosophy and personal growth to life lessons and meaningful insights.
+
+            Here, I explore thoughts that sit between everyday life and deeper reflection—sometimes through personal experiences, sometimes through learning, and sometimes just through questions I don't have answers to yet.
+
+            Whether it's talking about navigating life, understanding ourselves better, or simply making sense of the world around us, this channel is for anyone who enjoys thinking a little deeper and growing along the way.
+
+            If you're into discovering new perspectives, reflecting on life, and evolving together, hit subscribe—and let's begin this journey.
           </p>
           <div className="mt-8 rounded-xl overflow-hidden border border-[#7c5cff]/20">
             <img
-              src="/images/Gemini_Generated_Image_c70bg4c70bg4c70b.png"
-              alt="YouTube channel image"
+              src="/images/ChatGPT Image May 5, 2026, 02_29_02 PM.png"
+              alt="Quirkbyte Chronicles YouTube logo"
               className="w-full h-auto"
             />
           </div>
