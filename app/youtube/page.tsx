@@ -22,6 +22,13 @@ export default function YouTube() {
           <p className="text-[#e6e6e6] opacity-90 leading-relaxed">
             Welcome to our channel, where we share everything that sparks our curiosity, from philosophy and personal growth to life lessons and meaningful insights. Whether we are helping friends tackle their problems or diving deep into how to live a more fulfilling life, this space is for anyone who vibes with exploring deeper thoughts and finding balance. If you're into discovering new perspectives and growing together, hit subscribe and let's embark on this journey!
           </p>
+          <div className="mt-8 rounded-xl overflow-hidden border border-[#7c5cff]/20">
+            <img
+              src="/images/Gemini_Generated_Image_c70bg4c70bg4c70b.png"
+              alt="YouTube channel image"
+              className="w-full h-auto"
+            />
+          </div>
         </div>
       </div>
     </section>
