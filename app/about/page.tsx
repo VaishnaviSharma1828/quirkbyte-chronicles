@@ -1,7 +1,9 @@
 export default function About() {
   return (
     <section className="container mx-auto px-6 py-16">
-      <div className="max-w-3xl rounded-3xl bg-[#1a1f2e] p-10 shadow-lg border border-[#7c5cff]/20">
+      <div className="max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="rounded-3xl bg-[#1a1f2e] p-10 shadow-lg border border-[#7c5cff]/20">
         <h1 className="text-4xl font-bold text-[#7c5cff] mb-6 font-[var(--font-sora)]">About QuirkByte Chronicles</h1>
         <p className="text-[#e6e6e6] opacity-90 mb-4">
           Hi, I’m Vaishnavi.
@@ -35,6 +37,18 @@ export default function About() {
               <strong className="text-[#7c5cff]">Random experiments</strong> — the unexpected ideas I try just to see what happens.
             </li>
           </ul>
+        </div>
+          </div>
+
+          <div className="flex justify-center">
+            <div className="rounded-3xl overflow-hidden border border-[#7c5cff]/20 shadow-[0_0_40px_rgba(0,212,255,0.18)]">
+              <img
+                src="/images/Profile Photo.jpg"
+                alt="Vaishnavi - Author of QuirkByte Chronicles"
+                className="w-full max-w-sm h-auto object-cover"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </section>
