@@ -100,12 +100,12 @@ export default function SapSapphirePost() {
             Some key signals from Sapphire:
           </p>
 
-          <ul className="text-[#e6e6e6] opacity-90">
+          <ol className="text-[#e6e6e6] opacity-90">
             <li>Joule becoming the conversational entry point across SAP systems (<a href="https://news.sap.com/2025/06/sap-business-ai-business-value-innovation-partnerships/?utm_source=chatgpt.com" className="text-[#00d4ff]">SAP News Center</a>)</li>
             <li>AI agents automating end-to-end workflows (<a href="https://news.sap.com/2025/07/sap-business-ai-release-highlights-q2-2025/?utm_source=chatgpt.com" className="text-[#00d4ff]">SAP News Center</a>)</li>
             <li>CAP + BTP positioned as the backbone for extensibility and AI integration (<a href="https://news.sap.com/2025/05/sap-btp-innovations-powerful-ai-capabilities-developers-business-users-sap-business-suite/?utm_source=chatgpt.com" className="text-[#00d4ff]">SAP News Center</a>)</li>
             <li>“App-less” and intent-driven experiences becoming part of SAP’s long-term vision (<a href="https://www.reddit.com/r/SAP/comments/1tba6qv/will_sap_still_be_a_software_company_in_the/?utm_source=chatgpt.com" className="text-[#00d4ff]">Reddit</a>)</li>
-          </ul>
+          </ol>
 
           <p className="text-[#e6e6e6] opacity-90">
             So no — Fiori is not disappearing.
@@ -119,14 +119,14 @@ export default function SapSapphirePost() {
             The future Fiori developer will likely need:
           </p>
 
-          <ul className="text-[#e6e6e6] opacity-90">
+          <ol className="text-[#e6e6e6] opacity-90">
             <li>SAPUI5/Fiori expertise</li>
             <li>CAP development skills</li>
             <li>BTP architecture understanding</li>
             <li>Workflow & automation knowledge</li>
             <li>AI integration capabilities</li>
             <li>Experience orchestration thinking</li>
-          </ul>
+          </ol>
 
           <p className="text-[#e6e6e6] opacity-90">
             The developers who adapt early to this shift will help define the next generation of SAP enterprise UX.
