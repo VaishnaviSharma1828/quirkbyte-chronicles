@@ -30,6 +30,18 @@ export default function Blog() {
           <div className="mt-4 text-sm text-[#7c5cff] font-medium group-hover:text-[#00d4ff] transition-colors">Read more →</div>
         </Link>
       </div>
+
+      <div className="mt-16">
+        <h3 className="text-3xl font-bold text-[#7c5cff] mb-6 font-[var(--font-sora)]">AI</h3>
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <Link href="/blog/prompt-engineering-matters" className="group block rounded-2xl bg-[#1a1f2e] p-6 shadow-lg transition-all duration-300 hover:shadow-[0_0_30px_rgba(0,212,255,0.3)] hover:-translate-y-2 border border-[#7c5cff]/20">
+            <div className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-[#00d4ff]">AI</div>
+            <h2 className="text-2xl font-semibold text-[#e6e6e6] mb-3 group-hover:text-[#00d4ff] transition-colors">Prompt Engineering Matters — Don’t Trust Confident AI</h2>
+            <p className="text-[#e6e6e6] opacity-80 leading-relaxed">AI is a powerful tool — but confidence isn't correctness. Learn how to ask better questions and detect hallucinations.</p>
+            <div className="mt-4 text-sm text-[#7c5cff] font-medium group-hover:text-[#00d4ff] transition-colors">Read more →</div>
+          </Link>
+        </div>
+      </div>
     </section>
   )
 }
